@@ -1,0 +1,67 @@
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    text-align: center;
+    color: #2c3e50;
+    
+    }
+.modal {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    
+  }
+  
+  .modal-content {
+    background:white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    height:px,
+    
+  }
+  
+  .modal-content button {
+    margin-top: 10px;
+  }
+
+  .recording {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .start-recording{
+    border-radius: 10px;
+    color: rgb(82, 138, 82);
+    background-color: rgb(195, 223, 248);
+    width: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+ .recordings{
+    display: flex;
+    justify-content:flex-start;
+    margin-left: 300px;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+ }
+ .record-numbers{
+    list-style: none;
+    margin-right: 730px;
+    margin-top: 1rem;
+ }
+  .record-numbers a{
+    text-decoration: none;
+    display: block;
+    color: rgb(82, 138, 82);
+    background-color: rgb(195, 223, 248);
+    list-style: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    
+  }
